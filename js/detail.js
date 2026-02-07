@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (currentIndex < data.length - 1) {
                     nextBtn.onclick = () => window.location.href = `detail.html?id=${data[currentIndex + 1].id}`;
                 } else {
-                    nextBtn.disabled = true;
+                    nextBtn.textContent = 'Agradecimientos';
+                    nextBtn.onclick = () => window.location.href = 'agradecimiento.html';
                 }
 
                 // View button functionality
