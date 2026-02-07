@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Proyecto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="project-detail">
+        <button id="back-btn">← Volver a la Línea de Tiempo</button>
+        <h1 id="project-title"></h1>
+        <p id="project-author"></p>
+        <p id="project-description"></p>
+        <button id="view-btn">Ver la presentación</button>
+        <div id="presentation-modal" class="modal">
+            <button id="close-modal-btn">×</button>
+            <iframe id="presentation-iframe" src="" type="application/pdf"></iframe>
+        </div>
+        <div id="navigation">
+            <button id="prev-btn">← Proyecto Anterior</button>
+            <button id="next-btn">Proyecto Siguiente →</button>
+        </div>
+    </div>
+    <script src="js/detail.js"></script>
+</body>
+</html>

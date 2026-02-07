@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Prevención y Extinción de Incendios",
+    "description": "Breve descripción del proyecto sobre prevención y extinción de incendios.",
+    "fullDescription": "Descripción completa del proyecto: Este proyecto se enfoca en estrategias para prevenir incendios en entornos urbanos y rurales, incluyendo técnicas de extinción eficaces y capacitación para equipos de respuesta rápida.",
+    "pdf": "files/Prevencion Extincion Incendios.pdf",
+    "date": "2023-10-01",
+    "author": "Ing. Juan Pérez"
+  },
+  {
+    "id": 2,
+    "title": "Sistema de Gestión de Bases de Datos",
+    "description": "Desarrollo de un sistema avanzado para la gestión eficiente de bases de datos en entornos empresariales.",
+    "fullDescription": "Este proyecto aborda el diseño e implementación de un sistema de gestión de bases de datos relacionales y no relacionales, con énfasis en la seguridad, escalabilidad y optimización de consultas.",
+    "pdf": "Sistema Gestion BD.pdf",
+    "date": "2023-11-15",
+    "author": "Ing. María González"
+  },
+  {
+    "id": 3,
+    "title": "Inteligencia Artificial en Procesos Industriales",
+    "description": "Aplicación de IA para optimizar procesos industriales y mejorar la eficiencia operativa.",
+    "fullDescription": "Proyecto que integra algoritmos de machine learning y visión por computadora para automatizar procesos industriales, reducir costos y aumentar la productividad.",
+    "pdf": "IA Procesos Industriales.pdf",
+    "date": "2023-12-01",
+    "author": "Ing. Carlos Rodríguez"
+  }
+]
