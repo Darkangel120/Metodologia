@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('../data/projects.json')
+    fetch('data/projects.json')
         .then(response => response.json())
         .then(data => {
             const timeline = document.getElementById('timeline');

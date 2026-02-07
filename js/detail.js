@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const urlParams = new URLSearchParams(window.location.search);
     const projectId = parseInt(urlParams.get('id'));
 
-    fetch('../data/projects.json')
+    fetch('data/projects.json')
         .then(response => response.json())
         .then(data => {
             const project = data.find(p => p.id === projectId);
